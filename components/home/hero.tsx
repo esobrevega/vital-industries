@@ -74,7 +74,7 @@ export function Hero() {
                   }}
                   className="block"
                 >
-                  what's next.
+                  what&apos;s next.
                 </motion.span>
               </span>
             </h1>
