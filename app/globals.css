@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f7f4ec;
+  --foreground: #171a18;
+
+  --primary: #123c32;
+  --primary-foreground: #ffffff;
+
+  --secondary: #17483a;
+  --dark-green: #0d2b24;
+
+  --accent: #c8a45d;
+  --accent-dark: #a98543;
+
+  --muted: #e9e5db;
+  --muted-foreground: #5f625d;
+
+  --border: rgba(18, 60, 50, 0.14);
+
+  --radius: 0.25rem;
+
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-body: var(--font-geist-sans), "Inter", system-ui, sans-serif;
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
+
+::selection {
+  background-color: var(--accent);
+  color: var(--dark-green);
+}
+
+.font-editorial {
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-weight: 500;
+  color: var(--accent-dark);
+}
+
+.eyebrow-light {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.hairline {
+  height: 1px;
+  background-color: var(--border);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Focus visibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+[role="button"]:focus-visible {
+  outline: 2px solid var(--accent-dark);
+  outline-offset: 3px;
+}
