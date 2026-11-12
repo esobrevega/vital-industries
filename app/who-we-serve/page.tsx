@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { AudienceHero } from "@/components/who-we-serve/audience-hero";
 import { AudienceList } from "@/components/who-we-serve/audience-list";
 import { AudienceCta } from "@/components/who-we-serve/audience-cta";
+import { AudienceImageStrip } from "@/components/who-we-serve/audience-image-strip";
 
 export const metadata: Metadata = {
   title: "Tax Services for Individuals & Businesses | Vital Industries",
@@ -13,6 +14,7 @@ export default function WhoWeServePage() {
   return (
     <>
       <AudienceHero />
+      <AudienceImageStrip />
       <AudienceList />
       <AudienceCta />
     </>

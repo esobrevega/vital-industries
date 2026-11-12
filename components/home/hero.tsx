@@ -1,3 +1,4 @@
+
 "use client";
 
 import { motion } from "framer-motion";
@@ -8,11 +9,13 @@ import { ArrowUpRight } from "lucide-react";
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-[#F7F4EC] pt-[7.5rem] lg:pt-[8.5rem]">
+
       {/* =====================================================
           HEADLINE AREA
       ====================================================== */}
       <div className="mx-auto w-full max-w-[1600px] px-6 lg:px-10 xl:px-12">
         <div className="relative min-h-[310px] lg:min-h-[360px]">
+
           {/* =================================================
               HEADLINE
           ================================================== */}
@@ -30,6 +33,7 @@ export function Hero() {
             </motion.p>
 
             <h1 className="font-sans text-[clamp(3rem,6.5vw,6.8rem)] font-medium leading-[0.94] tracking-[-0.055em] text-[#0D1B1E]">
+
               {/* Line 1 */}
               <span className="block overflow-hidden pb-[0.08em]">
                 <motion.span
@@ -77,6 +81,7 @@ export function Hero() {
                   what&apos;s next.
                 </motion.span>
               </span>
+
             </h1>
           </div>
 
@@ -93,16 +98,14 @@ export function Hero() {
             }}
             className="absolute right-0 top-0 hidden w-[300px] lg:block xl:w-[320px]"
           >
-            {/* =================================================
-                APPROACH PANEL
-            ================================================== */}
+
+            {/* Approach Panel */}
             <div className="min-h-[190px] bg-[#F0F4EA] p-7 xl:min-h-[200px] xl:p-8">
-              {/* Label */}
+
               <p className="text-[0.6rem] font-medium uppercase tracking-[0.2em] text-[#0D1B1E]/50">
                 Our Approach
               </p>
 
-              {/* Main Message */}
               <p className="mt-6 max-w-[240px] text-[1.4rem] font-medium leading-[1.05] tracking-[-0.04em] text-[#0D1B1E] xl:text-[1.5rem]">
                 Plan today.
                 <br />
@@ -114,16 +117,12 @@ export function Hero() {
               {/* Indicators */}
               <div className="mt-8 flex items-center gap-2">
                 <span className="h-1.5 w-1.5 rounded-full bg-[#0D1B1E]" />
-
                 <span className="h-1.5 w-1.5 rounded-full bg-[#0D1B1E]" />
-
                 <span className="h-1.5 w-1.5 rounded-full border border-[#0D1B1E]/20" />
               </div>
             </div>
 
-            {/* =================================================
-                CTA PANEL
-            ================================================== */}
+            {/* CTA Panel */}
             <Link
               href="/contact"
               className="group flex min-h-[78px] items-center justify-between bg-[#0D2B24] px-7 text-white transition-colors duration-300 hover:bg-[#12382F] xl:px-8"
@@ -139,6 +138,7 @@ export function Hero() {
                 strokeWidth={1.5}
               />
             </Link>
+
           </motion.div>
         </div>
       </div>
@@ -166,6 +166,19 @@ export function Hero() {
           }}
           className="relative h-full w-full"
         >
+
+          {/* CURRENT LOCAL HERO IMAGE */}
+          <Image
+            src="/images/hero%20strip.jpg"
+            alt="Professionals discussing business and financial strategy"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover object-center"
+          />
+
+          {/* PREVIOUS UNSPLASH IMAGE - PRESERVED FOR FUTURE USE
+
           <Image
             src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=85&w=2000&auto=format&fit=crop"
             alt="Professionals discussing business and financial strategy"
@@ -174,6 +187,9 @@ export function Hero() {
             sizes="100vw"
             className="object-cover object-center"
           />
+
+          */}
+
         </motion.div>
 
         {/* Image Overlay */}
@@ -194,6 +210,7 @@ export function Hero() {
             Vital Industries
           </p>
         </motion.div>
+
       </motion.div>
     </section>
   );

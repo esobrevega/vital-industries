@@ -58,7 +58,7 @@ export function Navbar() {
         <div
           className={cn(
             "mx-auto flex w-full max-w-content items-center justify-between",
-            "px-6 lg:px-10 xl:px-16 2xl:px-20",
+            "px-10 lg:px-12 xl:px-20 2xl:px-24",
             "transition-all duration-500",
             scrolled ? "py-4" : "py-5"
           )}
@@ -66,7 +66,7 @@ export function Navbar() {
           {/* Logo */}
           <Link
             href="/"
-            className="font-editorial text-lg leading-none tracking-tight text-primary"
+            className="font-editorial text-2xl leading-none tracking-tight text-primary"
           >
             VITAL
             <br />
