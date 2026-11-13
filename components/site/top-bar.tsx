@@ -10,21 +10,21 @@ export function TopBar() {
         {/* Left */}
         <div className="flex items-center gap-6 text-[11px] tracking-[0.08em]">
           <Link
-            href="mailto:info@vitalindustries.com"
+            href="mailto:vital.industriesllc.info@gmail.com"
             className="flex items-center gap-2 transition-colors hover:text-white"
           >
             <Mail className="h-3.5 w-3.5" strokeWidth={1.5} />
-            info@vitalindustries.com
+            vital.industriesllc.info@gmail.com
           </Link>
 
           <span className="h-3 w-px bg-white/20" />
 
           <Link
-            href="tel:+10000000000"
+            href="tel:+16323021049"
             className="flex items-center gap-2 transition-colors hover:text-white"
           >
             <Phone className="h-3.5 w-3.5" strokeWidth={1.5} />
-            (000) 000-0000
+            (623) 302-1049
           </Link>
         </div>
 

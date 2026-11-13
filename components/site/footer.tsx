@@ -103,14 +103,14 @@ export function Footer() {
                 <span className="mb-1 block text-[10px] uppercase tracking-widest text-white/35">
                   Phone
                 </span>
-                [PHONE NUMBER]
+                (623) 302-1049
               </li>
 
               <li>
                 <span className="mb-1 block text-[10px] uppercase tracking-widest text-white/35">
                   Email
                 </span>
-                [EMAIL ADDRESS]
+                vital.industriesllc.info@gmail.com
               </li>
             </ul>
           </div>

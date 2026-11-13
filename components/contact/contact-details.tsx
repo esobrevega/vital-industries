@@ -40,7 +40,7 @@ export function ContactDetails() {
             </p>
 
             <p className="mt-3 font-editorial text-xl text-white/90">
-              [PHONE NUMBER]
+              (623) 302-1049
             </p>
           </div>
 
@@ -50,7 +50,7 @@ export function ContactDetails() {
             </p>
 
             <p className="mt-3 break-all font-editorial text-xl text-white/90">
-              [EMAIL ADDRESS]
+              vital.industriesllc.info@gmail.com
             </p>
           </div>
 
