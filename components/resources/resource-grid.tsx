@@ -65,7 +65,7 @@ export function ResourceGrid() {
             <p className="max-w-[390px] text-sm leading-[1.9] text-[#68736C] lg:justify-self-end lg:pb-1 lg:text-base">
               Browse educational articles and helpful perspectives on tax,
               financial planning, and business decisions. Find information
-              relevant to the questions you're working through.
+              relevant to the questions you&apos;re working through.
             </p>
           </div>
         </Reveal>
@@ -168,7 +168,7 @@ export function ResourceGrid() {
               </h3>
 
               <p className="mt-3 max-w-[350px] text-sm leading-relaxed text-[#68736C]">
-                We couldn't find anything matching your search. Try another
+                We couldn&apos;t find anything matching your search. Try another
                 keyword or explore a different category.
               </p>
 

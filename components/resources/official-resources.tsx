@@ -315,7 +315,7 @@ export function OfficialResources() {
               </h3>
 
               <p className="mt-3 max-w-[350px] text-sm leading-relaxed text-[#68736C]">
-                We couldn't find anything matching your search. Try another
+                We couldn&apos;t find anything matching your search. Try another
                 keyword or explore a different category.
               </p>
 

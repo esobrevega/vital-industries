@@ -21,7 +21,7 @@ export function AudienceCta() {
               <span className="h-px w-8 bg-[#C9AD70]" />
 
               <p className="text-[10px] font-medium uppercase tracking-[0.3em] text-[#C9AD70]">
-                Let's Start With You
+                Let&apos;s Start With You
               </p>
             </div>
 

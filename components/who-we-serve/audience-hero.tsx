@@ -43,8 +43,8 @@ export function AudienceHero() {
                 </p>
 
                 <p className="mt-5 text-sm leading-[1.9] text-[#68736C]">
-                  Whether you're managing personal taxes, growing a business,
-                  or planning for the future, we're here to help you navigate
+                  Whether you&apos;re managing personal taxes, growing a business,
+                  or planning for the future, we&apos;re here to help you navigate
                   the decisions along the way.
                 </p>
               </div>

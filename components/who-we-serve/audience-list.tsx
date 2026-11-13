@@ -85,7 +85,7 @@ export function AudienceList() {
             </div>
 
             <p className="max-w-[350px] text-sm leading-[1.8] text-[#68736C]">
-              Different needs call for different considerations. Here's how
+              Different needs call for different considerations. Here&apos;s how
               our areas of support connect with the people we serve.
             </p>
           </div>

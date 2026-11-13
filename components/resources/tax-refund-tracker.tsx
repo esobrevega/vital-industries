@@ -144,7 +144,7 @@ export function TaxRefundTracker() {
                 </p>
 
                 <h3 className="mt-3 font-editorial text-3xl text-[#F7F4EC] lg:text-4xl">
-                  IRS – Where's My Refund?
+                  IRS – Where&apos;s My Refund?
                 </h3>
 
                 <p className="mt-3 max-w-[520px] text-sm leading-[1.85] text-white/60">

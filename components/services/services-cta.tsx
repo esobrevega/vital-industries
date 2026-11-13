@@ -21,7 +21,7 @@ export function ServicesCta() {
               <span className="h-px w-8 bg-[#C9AD70]" />
 
               <p className="text-[10px] font-medium uppercase tracking-[0.3em] text-[#C9AD70]">
-                Let's Find the Right Approach
+                Let&apos;s Find the Right Approach
               </p>
             </div>
 
@@ -36,8 +36,8 @@ export function ServicesCta() {
           <Reveal amount={0.3} delay={0.1}>
             <div className="max-w-[400px] lg:justify-self-end">
               <p className="text-sm leading-[1.95] text-white/65 lg:text-base">
-                You don't need to have every answer before reaching out.
-                Let's talk through your goals and help you find the right
+                You don&apos;t need to have every answer before reaching out.
+                Let&apos;s talk through your goals and help you find the right
                 starting point.
               </p>
 
